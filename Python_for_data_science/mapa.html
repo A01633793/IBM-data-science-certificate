@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b599e996ea28431aaa69876e3e1f15db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@master/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b599e996ea28431aaa69876e3e1f15db" ></div>
+        
+</body>
+<script>    
+    
+            var map_b599e996ea28431aaa69876e3e1f15db = L.map(
+                "map_b599e996ea28431aaa69876e3e1f15db",
+                {
+                    center: [20.0, -101.29273223876953],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5799bf2bb9b14f47888ab216fa813a41 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            var marker_df1a5e1e647349678ad487eb56fa5e75 = L.marker(
+                [20.674509048461914, -101.37152862548828],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_df1a5e1e647349678ad487eb56fa5e75.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: 93 BARBER SHOP,<br>Direccion: Av Las Arboledas 400, San Pedro 1ra Secc, 36526 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29a3484dd2a340a4a65d9f0e3c73284d = L.marker(
+                [20.69523048400879, -101.37336730957031],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_29a3484dd2a340a4a65d9f0e3c73284d.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: El Mostacho Elegante,<br>Direccion: De La Reforma 2079, Cd Deportiva, 36612 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d18ef63a093c43828f3281429b9007a9 = L.marker(
+                [20.672870635986328, -101.37828826904297],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_d18ef63a093c43828f3281429b9007a9.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Lo'Martz Barbershop,<br>Direccion: Ley Federal del Trabajo 503, 1ro de Mayo, 36644 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f1afa8536c244fd80c5ea6bdd6d54c2 = L.marker(
+                [20.666166305541992, -101.42184448242188],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_3f1afa8536c244fd80c5ea6bdd6d54c2.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Barberia 462,<br>Direccion: Av. Juan Pablo II 3541, 36833 Villas de Bernalejo, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e7466d74d3a45d99f30b567077c792b = L.marker(
+                [20.68047332763672, -101.40785217285156],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_3e7466d74d3a45d99f30b567077c792b.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Uri the barber,<br>Direccion: P.º del Llano 621, Villas de Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d23dee1809f345adbe056917e91ae474 = L.marker(
+                [20.65353012084961, -101.36006927490234],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_d23dee1809f345adbe056917e91ae474.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Saulo Barberia,<br>Direccion: Av Mariano J. García 771, Lupita, 36576 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b65db38cd8ec495b92c23e136180df6d = L.marker(
+                [20.670059204101562, -101.3656234741211],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_b65db38cd8ec495b92c23e136180df6d.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Peluquería Dandy,<br>Direccion: C. Antonio Torres 54, Miguel Hidalgo, 36550 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_165315cf3bdd4c66b744465c48be68c2 = L.marker(
+                [20.67455291748047, -101.34739685058594],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_165315cf3bdd4c66b744465c48be68c2.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Peluquería Anahuac,<br>Direccion: Morelos 28, Col. Centro, 36500 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4dfb4efe74b426798c7cd11f2e352ff = L.marker(
+                [20.6807804107666, -101.37030792236328],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_f4dfb4efe74b426798c7cd11f2e352ff.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Barberia Punto Rojo,<br>Direccion: Héroe de Nacozari 782, Residencial Campestre, 36698 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_faf4b116a08d4c9cb4123fa76dec8759 = L.marker(
+                [20.665409088134766, -101.35363006591797],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_faf4b116a08d4c9cb4123fa76dec8759.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: FREDY'S BARBERSHOP,<br>Direccion: C. Insurgentes Sur 595, El Cantador, 36570 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3074862512404f7c9ccce5089acebd44 = L.marker(
+                [20.677539825439453, -101.35968017578125],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_3074862512404f7c9ccce5089acebd44.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Enigma Barber,<br>Direccion: C. V. de las Fuentes 685, Nuevo, 36530 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55719e31b1304d3cb9ec3e9eced3698d = L.marker(
+                [20.67453956604004, -101.34855651855469],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_55719e31b1304d3cb9ec3e9eced3698d.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: El Charro Barbershop,<br>Direccion: Av Revolución 11, Col. Centro, 36500 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9d7a31e9a904f72937ad83105121b62 = L.marker(
+                [20.679710388183594, -101.35488891601562],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_f9d7a31e9a904f72937ad83105121b62.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Peluquería Juárez,<br>Direccion: Calle Emilio Carranza 810, Rodriguez, 36690 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_addf248631ff42e8931b61b790ccff84 = L.marker(
+                [20.656749725341797, -101.34722137451172],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_addf248631ff42e8931b61b790ccff84.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Peluquería Angel,<br>Direccion: Nueva Guinea 1501-Local A, El Refugio, 36590 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_978dc803355b4fe09fa24b0fd299b7d6 = L.marker(
+                [20.68868637084961, -101.36373901367188],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_978dc803355b4fe09fa24b0fd299b7d6.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Barbería Valhalla,<br>Direccion: Av. de la Reforma 1172, La Hacienda, 36650 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_888e5a31becb4ee2abc2054a733f1278 = L.marker(
+                [20.691490173339844, -101.36222839355469],
+                {}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+    
+            marker_888e5a31becb4ee2abc2054a733f1278.bindTooltip(
+                `<div>
+                     Informacion:<br>Nombre: Figaro Barbershop,<br>Direccion: De Las Americas 381, La Hacienda, 36650 Irapuato, Gto.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var heat_map_3ee53d71fcda4cf59340d62910e01dba = L.heatLayer(
+                [[20.674509048461914, -101.37152862548828], [20.69523048400879, -101.37336730957031], [20.672870635986328, -101.37828826904297], [20.666166305541992, -101.42184448242188], [20.68047332763672, -101.40785217285156], [20.65353012084961, -101.36006927490234], [20.670059204101562, -101.3656234741211], [20.67455291748047, -101.34739685058594], [20.6807804107666, -101.37030792236328], [20.665409088134766, -101.35363006591797], [20.677539825439453, -101.35968017578125], [20.67453956604004, -101.34855651855469], [20.679710388183594, -101.35488891601562], [20.656749725341797, -101.34722137451172], [20.68868637084961, -101.36373901367188], [20.691490173339844, -101.36222839355469]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_b599e996ea28431aaa69876e3e1f15db);
+        
+</script>
