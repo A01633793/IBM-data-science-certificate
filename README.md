@@ -1,3 +1,3 @@
 # IBM-data-science-certificate
 
-Prueba líneas README
+Mis prácticas y proyectos realizados durante mi certificación de ciencia de datos.
